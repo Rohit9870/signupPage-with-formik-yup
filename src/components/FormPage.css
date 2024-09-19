@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal overflow */
+  }
+/* .modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: white;
+  }
+  
+  .modal-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .modal-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .modal-right img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+   */
+  /* Hide image for mobile view */
+  @media only screen and (max-width: 480px) {
+    .modal {
+      flex-direction: column;
+      width: 80%;
+    }
+  
+    .modal-right {
+      display: none; /* Hide image on mobile */
+    }
+  
+    .modal-left {
+      padding: 20px 20px;
+      width: 100%; /* Make the form take up full width */
+    }
+  }
+
+  @media only screen and (max-width: 720px){
+    .modal-container{
+      max-width: 90vw;
+    }
+  } 
+
+  
+  
