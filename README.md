@@ -1,10 +1,3 @@
-# Signup Page with Formik and Yup
-
-This project is a simple React application that demonstrates how to create a signup form using Formik for form handling and Yup for validation. The form includes fields for name, email, password, and confirm password with validation rules such as matching patterns and required fields.
-
-# You can view the live demo of this project at:
-https://signup-page-with-formik-yup.vercel.app/
-
 
 # Signup Page with Formik and Yup
 This project is a simple React application that demonstrates how to create a signup form using Formik for form handling and Yup for validation. The form includes fields for name, email, password, and confirm password with validation rules such as matching patterns and required fields.
